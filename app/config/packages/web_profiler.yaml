@@ -3,11 +3,7 @@ when@dev:
         toolbar: true
 
     framework:
-        profiler:
-            collect: true
-            excluded_paths:
-                - '^/\.well-known/'
-                - '^/favicon\.ico$'
+        profiler: true
 
 when@test:
     framework:
